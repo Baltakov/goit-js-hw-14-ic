@@ -3,6 +3,7 @@ console.log(`Number of categories: ${numberOfCategories}`);
 
 const titles = document.querySelectorAll(".item");
 titles.forEach((element) => {
+  //.map
   const h2 = element.querySelector("h2");
   console.log(`Category: ${h2.textContent}`);
   const nextElementSib = h2.nextElementSibling;
