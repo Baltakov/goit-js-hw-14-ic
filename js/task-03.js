@@ -20,4 +20,3 @@ const elements = images
   .map(({ url, alt }) => `<li><img src="${url}" alt="${alt}" width="600"></li>`)
   .join("");
 gallery.insertAdjacentHTML("afterbegin", elements);
-// gallery.innerHTML("afterbegin", elements);
